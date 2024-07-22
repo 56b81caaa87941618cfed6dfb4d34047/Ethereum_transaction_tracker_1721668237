@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Affirmative response: \"Alright, I'll add a sidebar with the fields.\"",
+        "message_id": "guest22072024174119",
+        "timestamp": "22072024174120",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a sidebar with the fields home, about and contact",
         "message_id": "guest22072024174119",
