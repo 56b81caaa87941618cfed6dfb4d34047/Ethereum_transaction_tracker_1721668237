@@ -40,15 +40,16 @@ Vue.component("purple_header_component_1721668240", {
                         </svg>
                     </button>
 
-                    <nav id="sidebar" class="md:hidden fixed left-0 bottom-0 top-16 md:top-20 w-64 px-4 py-6 bg-slate-900 border-r border-slate-700 overflow-y-auto">
+                    <nav id="sidebar" class="md:hidden fixed left-0 bottom-0 top-16 md:top-20 w-64 px-4 py-6 bg-gradient-to-br from-purple-900 via-indigo-900 to-black border-r border-indigo-700 overflow-y-auto">
                         <ul id="sidebar-links" class="space-y-2">
-                            <li><a id="sidebar-home-link" class="flex items-center space-x-2 text-slate-300 hover:text-white transition duration-150" href="/"><span class="text-lg">🏠</span><span>Home</span></a></li>
+                            <li><a id="sidebar-home-link" class="flex items-center space-x-2 text-white hover:text-purple-400 transition duration-300 ease-in-out" href="/"><span class="text-lg">🏠</span><span>Home</span></a></li>
 
-                            <li><a id="sidebar-about-link" class="flex items-center space-x-2 text-slate-300 hover:text-white transition duration-150" href="/about"><span class="text-lg">ℹ️</span><span>About</span></a></li>
+                            <li><a id="sidebar-about-link" class="flex items-center space-x-2 text-white hover:text-purple-400 transition duration-300 ease-in-out" href="/about"><span class="text-lg">ℹ️</span><span>About</span></a></li>
 
-                            <li><a id="sidebar-contact-link" class="flex items-center space-x-2 text-slate-300 hover:text-white transition duration-150" href="/contact"><span class="text-lg">✉️</span><span>Contact</span></a></li>
+                            <li><a id="sidebar-contact-link" class="flex items-center space-x-2 text-white hover:text-purple-400 transition duration-300 ease-in-out" href="/contact"><span class="text-lg">✉️</span><span>Contact</span></a></li>
                         </ul>
                     </nav>
+
 
                     <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
 
