@@ -36,5 +36,11 @@
         "content": "Got it, adding a sidebar with navlinks home, about and contact.",
         "timestamp": "22072024171226",
         "message_id": "guest22072024171223"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer the sidebar to be always visible or should it expand/collapse based on user interaction?\", \"option1\": \"Always visible\", \"option2\": \"Expand/Collapse\"}, {\"question 2\": \"For the design of the sidebar, do you have a preference between a minimalistic style or something more elaborate and eye-catching?\", \"option1\": \"Minimalistic style\", \"option2\": \"Elaborate and eye-catching\"}], \"input_token_count\": 323, \"output_token_count\": 103, \"time_taken\": \"0:00:03.231073\"}",
+        "timestamp": "22072024171233",
+        "message_id": "guest22072024171223"
     }
 ]
