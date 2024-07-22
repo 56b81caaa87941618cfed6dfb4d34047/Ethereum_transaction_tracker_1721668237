@@ -14,5 +14,9 @@
     {
         "level": 1,
         "task_description": "add a button with the text Submit"
+    },
+    {
+        "level": 1,
+        "task_description": "add a button with the text that says hello world"
     }
 ]
