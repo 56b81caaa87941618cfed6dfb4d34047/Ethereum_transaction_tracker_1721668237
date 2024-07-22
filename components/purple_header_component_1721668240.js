@@ -39,16 +39,19 @@ Vue.component("purple_header_component_1721668240", {
                             <rect y="16" width="20" height="2" rx="1" />
                         </svg>
                     </button>
-    
-                    <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
-                        <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]">
-                            <li><a id="mobile-Explore Ethereum-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Explore Ethereum.html">Explore Ethereum</a></li>
-                            <li><a id="mobile-New Transactions-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="New Transactions.html">New Transactions</a></li>
-                            <li><a id="mobile-Smart Contracts-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Smart Contracts.html">Smart Contracts</a></li>
-                            <li><a id="mobile-Analytics-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Analytics.html">Analytics</a></li>
-                            <li><a id="mobile-Developer Tools-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Developer Tools.html">Developer Tools</a></li>
+
+                    <nav id="sidebar" class="md:hidden fixed left-0 bottom-0 top-16 md:top-20 w-64 px-4 py-6 bg-slate-900 border-r border-slate-700 overflow-y-auto">
+                        <ul id="sidebar-links" class="space-y-2">
+                            <li><a id="sidebar-home-link" class="flex items-center space-x-2 text-slate-300 hover:text-white transition duration-150" href="/"><span class="text-lg">🏠</span><span>Home</span></a></li>
+
+                            <li><a id="sidebar-about-link" class="flex items-center space-x-2 text-slate-300 hover:text-white transition duration-150" href="/about"><span class="text-lg">ℹ️</span><span>About</span></a></li>
+
+                            <li><a id="sidebar-contact-link" class="flex items-center space-x-2 text-slate-300 hover:text-white transition duration-150" href="/contact"><span class="text-lg">✉️</span><span>Contact</span></a></li>
                         </ul>
                     </nav>
+
+                    <nav id="mobile-nav" class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
+
     
                 </div>
     
