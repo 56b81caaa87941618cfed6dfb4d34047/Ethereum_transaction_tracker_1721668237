@@ -23,9 +23,9 @@ Vue.component("purple_header_component_1721668240", {
                     </ul>
 
                     <div class="flex-1">
-                        <button class="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition-colors duration-300">
-                            Hello World
-                        </button>  
+<button class="bg-gradient-to-r from-indigo-900 to-purple-900 text-white font-sans px-6 py-3 rounded-full shadow-md hover:from-purple-800 hover:to-indigo-800 transition-all duration-300">
+  Hello World
+</button>
                     </div>
     
                 </nav>
